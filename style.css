@@ -1,0 +1,152 @@
+Body{
+	font-style: roboto;
+	background-color: 	#D3D3D3;
+	min-width: 730px;
+}
+
+h3{
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+nav{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #C0C0C0;
+	position: sticky;
+	top:0;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	float:left;
+	width:20%;
+	text-align: center;
+}
+
+nav ul::after{
+	content:"";
+	display:table;
+	clear:both;
+	margin: 0;
+	padding: 0;
+}
+
+nav a{
+	display:block;
+	text-decoration: none;
+	color: black;
+	border-botton:2px solid transparent;
+	padding: 10px 0px;
+}
+
+nav a:hover{
+	color: black;
+	border-bottom: 2px solid black;
+	font-weight: bold;
+}
+.Banner{
+	box-sizing: content-box;
+	background-image: url("images/banner.jpg");
+	height: 200px;
+	background-attachment: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-size:30px;
+}
+
+#titre_projet{
+	text-align: center;
+	font-size: 25px;
+}
+
+.projets {
+	display: grid;
+	grid-template-columns:  1.5fr 1.5fr ;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0 auto;
+	padding-bottom: 50px;
+}
+
+#imgprojet{
+	width: 300px;
+	height: 200px;
+	border-radius: 20px;
+}
+
+.projetbox {
+	padding: 10px;
+	width:320px;
+	background-color: White;
+	text-align: center;
+	margin-top: 4px;
+	border-radius: 30px;
+}
+
+.consultation{
+	background-image: url("images/application.jpg");
+	background-attachment: cover;
+	background-position: center;
+	text-align: center;
+	padding:50px;
+}
+
+.container{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	max-width: 350px;
+	padding: 0 auto;
+	margin: 0 auto;
+	background-color: #D3D3D3;
+	text-align: center;
+	align-content: center;
+	border-radius: 15px;
+}
+
+#text_consultation{
+	margin-bottom: 20px;
+}
+
+#bouton {
+	color: white;
+	background-color: #708090;
+	padding: 16px 24px;
+	border-radius:20px;
+	padding-top: 35px;
+
+}
+
+#bouton:hover{
+	color: #708090;
+	background-color: white;
+	transition: 1s;
+}
+
+.img_footer{
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+#img_linkedin{
+	width: 35px;
+	height: 30px;
+}
+.footer{
+	margin: 10px;
+	text-align: center;
+}
